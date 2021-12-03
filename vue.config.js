@@ -1,5 +1,6 @@
 module.exports = {
-	devServer: {
-		disableHostCheck: true
-	}
+    publicPath: '/galactic-alphabet-translator/',
+    devServer: {
+        port: 3000
+    }
 };
