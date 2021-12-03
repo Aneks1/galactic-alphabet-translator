@@ -1,24 +1,6 @@
-# enchantment-table-translator
+# Galactic Alphabet Translator
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Just some stupid website I made to know how to write words in Minecraft's enchanting table's language.
+<br>
+Fuck CSS, I won't spend my time styling this...
+Ok, just a little.
