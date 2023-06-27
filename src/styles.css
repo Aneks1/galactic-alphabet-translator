@@ -82,6 +82,9 @@ textarea::placeholder {
     word-wrap: break-word;
 }
 @media (max-width: 830px) {
+    #title {
+        font-size: 40px;
+    }
     #container {
         gap: 5vh;
     }

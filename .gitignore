@@ -1,7 +1,7 @@
 deploy.sh
 .DS_Store
 node_modules
-/dist
+dist
 
 package-lock.json
 
