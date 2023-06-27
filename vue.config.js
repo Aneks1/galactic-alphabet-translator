@@ -1,5 +1,6 @@
 module.exports = {
-    publicPath: '/galactic-alphabet-translator/',
+    publicPath: './',
+    outputDir: 'dist',
     devServer: {
         port: 3000
     }

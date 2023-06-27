@@ -1,0 +1,102 @@
+/* Designed by Kyungwon Kim, JAMO */
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+
+body {
+    margin: 0px;
+    font-family: Calibri;
+    background-image: linear-gradient(to bottom left, rgb(38, 84, 98), rgb(0, 0, 0));
+    color: rgb(255, 255, 255);
+}
+#title {
+    font-size: 60px;
+    font-family: 'Bagel Fat One', cursive;
+    text-align: center;
+    padding: 1rem;
+}
+.relative {
+    position: relative;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 15vh;
+}
+#container::before {
+    content: "";
+    position: absolute;
+    background-image: url("./assets/background.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+}
+.blur {
+    background: none;
+    background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.139), rgba(0, 0, 0, 0.123));
+    backdrop-filter: blur(13px);
+    border: 1px solid rgba(135, 135, 135, 0.229);
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.539);
+}
+textarea {
+    font-family: Calibri;
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: 20px;
+    width: 40vw;
+    height: 40vh;
+    padding: 1.5rem;
+    font-size: 25px;
+    color: white;
+}
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.207);
+}
+#panels {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    gap: 2vw;
+}
+#translation {
+    border-radius: 20px;
+    width: 40vw;
+    height: 40vh;
+    padding: 1.5rem;
+    font-size: 25px;
+}
+#output {
+    width: 100%;
+    word-wrap: break-word;
+}
+@media (max-width: 830px) {
+    #container {
+        gap: 5vh;
+    }
+    #panels {
+        flex-direction: column;
+        width: 100%;
+        height: 60vh;
+        gap: 3vh;
+    }
+    textarea {
+        width: 80vw;
+        height: 40%;
+    }
+    #translation {
+        width: 80vw;
+        height: 40%;
+    }
+}
